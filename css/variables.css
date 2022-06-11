@@ -1,0 +1,19 @@
+:root {
+  /* importing fonts */
+  --web-font: 'Poppins', sans-serif;
+  /* colors */
+  --backgruond-color: #f2f2f2;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --primary-color-1: #6170f1;
+  --primary-color-2: #d9771d;
+  --primary-color-3: #ef5da8;
+  /* low opacity colors */
+  --primary-color-1-variant-2: #6170f1;
+  --primary-color-2-variant-2: #ffbb7c;
+  --primary-color-3-variant-2: #f178b6;
+  /* font wights */
+  --header: 400;
+  --parg: 200;
+  --navlinks: 100;
+}

@@ -1,0 +1,29 @@
+@keyframes imgAnimation {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes NavSlidAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes buttonAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(200px);
+  }
+  100% {
+  }
+}

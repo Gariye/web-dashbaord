@@ -1,22 +1,5 @@
-:root {
-  /* importing fonts */
-  --web-font: "Poppins", sans-serif;
-  /* colors */
-  --backgruond-color: #f2f2f2;
-  --whiteColor: #fff;
-  --blackColor: #000;
-  --primary-color-1: #6170f1;
-  --primary-color-2: #d9771d;
-  --primary-color-3: #ef5da8;
-  /* low opacity colors */
-  --primary-color-1-variant-2: #6170f1;
-  --primary-color-2-variant-2: #ffbb7c;
-  --primary-color-3-variant-2: #f178b6;
-  /* font wights */
-  --header: 400;
-  --parg: 200;
-  --navlinks: 100;
-}
+@import './animations.css';
+@import './variables.css';
 
 * {
   margin: 0;
@@ -47,6 +30,7 @@
   align-items: center;
   gap: 40px;
 }
+
 .sidbar-img {
   max-width: 100px;
   max-height: 100px;
@@ -59,19 +43,9 @@
   animation: imgAnimation 0.4s 20ms ease;
   outline: 3px solid var(--primary-color-1-variant-2);
 }
+
 .sidbar-img img {
   width: 100%;
-}
-
-@keyframes imgAnimation {
-  0% {
-    transform: translateY(-200px);
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .sidebar ul {
@@ -85,15 +59,6 @@
   animation: NavSlidAnimation 0.8s 3ms;
 }
 
-@keyframes NavSlidAnimation {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .sidebar ul a {
   margin-left: -20px;
   display: block;
@@ -126,15 +91,6 @@
   transition: all 0.4s cubic-bezier(0, 0.95, 1, 0.18);
 
   animation: buttonAnimation 0.5s 4ms;
-}
-
-@keyframes buttonAnimation {
-  0% {
-    opacity: 1;
-    transform: translateY(200px);
-  }
-  100% {
-  }
 }
 
 .sidebar button:hover {
